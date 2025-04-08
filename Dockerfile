@@ -8,4 +8,5 @@ RUN mvn clean package -DskipTests
 
 EXPOSE 8080
 
-CMD ["java", "-cp", "target/classes:target/dependency/*", "com.matheus.restaurante.Application"]
+CMD ["java", "-cp", "target/classes:target/dependency/*", "backend.Application"]
+
